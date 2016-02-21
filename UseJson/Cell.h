@@ -13,11 +13,11 @@
 
 @property(nonatomic, weak) IBOutlet UILabel *idLabel;
 
-@property(nonatomic, weak) IBOutlet UILabel *urlLabel;
-
 @property(nonatomic, weak) IBOutlet UILabel *titleLabel;
 
 @property(nonatomic, weak) IBOutlet UIImageView *avatarImage;
+
+
 
 @end
 

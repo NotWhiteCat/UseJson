@@ -16,13 +16,24 @@
 
 @synthesize idLabel = _idLabel;
 @synthesize titleLabel = _titleLabel;
-@synthesize urlLabel = _urlLabel;
 @synthesize avatarImage =_avatarImage;
 
 
 - (void)awakeFromNib
 {
     // Initialization code
+    
+    _idLabel.font = [UIFont fontWithName:@"georgia" size:14];
+    _idLabel.layer.masksToBounds = YES;
+    _idLabel.layer.cornerRadius = 3;
+    
+    
+    _avatarImage.frame = CGRectMake(8,10.5, 68, 68);
+    
+    _avatarImage.layer.masksToBounds =YES;  //圆角
+    
+    _avatarImage.layer.cornerRadius =20;   //圆角
+    
 }
 
 

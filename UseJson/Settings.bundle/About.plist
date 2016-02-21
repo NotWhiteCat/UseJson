@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>关于.....</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>version</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>版本</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>copyright</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>版权</string>
+			<key>DefaultValue</key>
+			<string>EntLib.com@2012</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>website</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>网站</string>
+			<key>DefaultValue</key>
+			<string>www.baidu.com</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>blog</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>博客</string>
+			<key>DefaultValue</key>
+			<string>www.baidu.com</string>
+		</dict>
+	</array>
+</dict>
+</plist>
