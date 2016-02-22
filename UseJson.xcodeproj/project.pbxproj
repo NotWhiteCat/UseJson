@@ -25,6 +25,7 @@
 		410A3E911C572D3500FC0F82 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3E901C572D3500FC0F82 /* NewsViewController.m */; };
 		410A3E941C5781FD00FC0F82 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3E931C5781FD00FC0F82 /* SecondViewController.m */; };
 		410A3EA91C7333D700FC0F82 /* ALLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3EA81C7333D700FC0F82 /* ALLViewController.m */; };
+		410A3EAC1C799D8F00FC0F82 /* ALLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3EAB1C799D8F00FC0F82 /* ALLCell.m */; };
 		416A50871C2145D20060E708 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416A50861C2145D20060E708 /* WebViewController.m */; };
 		416A508E1C21A8D70060E708 /* Web.m in Sources */ = {isa = PBXBuildFile; fileRef = 416A508D1C21A8D70060E708 /* Web.m */; };
 		416A50911C21B8AF0060E708 /* Web2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416A50901C21B8AF0060E708 /* Web2ViewController.m */; };
@@ -85,6 +86,8 @@
 		410A3E931C5781FD00FC0F82 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		410A3EA71C7333D700FC0F82 /* ALLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLViewController.h; sourceTree = "<group>"; };
 		410A3EA81C7333D700FC0F82 /* ALLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLViewController.m; sourceTree = "<group>"; };
+		410A3EAA1C799D8F00FC0F82 /* ALLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLCell.h; sourceTree = "<group>"; };
+		410A3EAB1C799D8F00FC0F82 /* ALLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLCell.m; sourceTree = "<group>"; };
 		416A50851C2145D20060E708 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		416A50861C2145D20060E708 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		416A508C1C21A8D70060E708 /* Web.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web.h; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 			children = (
 				410A3EA71C7333D700FC0F82 /* ALLViewController.h */,
 				410A3EA81C7333D700FC0F82 /* ALLViewController.m */,
+				410A3EAA1C799D8F00FC0F82 /* ALLCell.h */,
+				410A3EAB1C799D8F00FC0F82 /* ALLCell.m */,
 			);
 			name = "V2EX ALL";
 			sourceTree = "<group>";
@@ -433,6 +438,7 @@
 				410A3E941C5781FD00FC0F82 /* SecondViewController.m in Sources */,
 				410A3E591C52477500FC0F82 /* OtherCell.m in Sources */,
 				41F94AEF1C1F09B800FA72B6 /* MJViewController.m in Sources */,
+				410A3EAC1C799D8F00FC0F82 /* ALLCell.m in Sources */,
 				416A50871C2145D20060E708 /* WebViewController.m in Sources */,
 				416A50911C21B8AF0060E708 /* Web2ViewController.m in Sources */,
 				41E068EE1C3925C700FD8641 /* ChangeViewController.m in Sources */,

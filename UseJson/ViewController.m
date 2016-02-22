@@ -62,7 +62,7 @@
         webjson.nodeavatar_large = [[a objectForKey:@"node"] objectForKey:@"nodeavatar_large"];
     }
 
-    
+   
 }
 
 -(void)setupRefresh
@@ -138,6 +138,7 @@
                JSONObjectWithData:responseData options:kNilOptions error:&error];
     
     [self.tableView2 reloadData];
+    
 }
 
 
@@ -149,6 +150,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     static NSString *simpleTableIdentifier = @"Cell";
     
     Cell *cell = (Cell *)[tableView2 dequeueReusableCellWithIdentifier:simpleTableIdentifier];
@@ -211,11 +213,8 @@
 //        destViewController.website = [acatalogue objectForKey:@"url"];
 //    
 //    }
+    
 }
 
-- (IBAction)webButton:(id)sender
-{
-//    NSString *urlText = [NSString stringWithFormat:@"https://www.baidu.com"];
-//                         [[UIApplication sharedApplication] openURL:[ NSURL URLWithString:urlText]];
-}
+
 @end

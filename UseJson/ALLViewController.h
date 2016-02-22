@@ -10,4 +10,5 @@
 
 @interface ALLViewController : UIViewController
 <UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong) IBOutlet UITableView *newtableView;
 @end

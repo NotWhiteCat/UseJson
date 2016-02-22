@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController
 <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) IBOutlet UITableView *tableView2;
-- (IBAction)webButton:(id)sender;
+
 
 @end
 
