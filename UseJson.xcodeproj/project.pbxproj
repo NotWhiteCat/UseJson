@@ -26,6 +26,9 @@
 		410A3E941C5781FD00FC0F82 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3E931C5781FD00FC0F82 /* SecondViewController.m */; };
 		410A3EA91C7333D700FC0F82 /* ALLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3EA81C7333D700FC0F82 /* ALLViewController.m */; };
 		410A3EAC1C799D8F00FC0F82 /* ALLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3EAB1C799D8F00FC0F82 /* ALLCell.m */; };
+		410A3EAF1C7C006900FC0F82 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3EAE1C7C006900FC0F82 /* DetailsViewController.m */; };
+		410A3EB21C7C1BC500FC0F82 /* UserHPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3EB11C7C1BC500FC0F82 /* UserHPViewController.m */; };
+		410A3EB51C7C1EE700FC0F82 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410A3EB41C7C1EE700FC0F82 /* HomePageViewController.m */; };
 		416A50871C2145D20060E708 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416A50861C2145D20060E708 /* WebViewController.m */; };
 		416A508E1C21A8D70060E708 /* Web.m in Sources */ = {isa = PBXBuildFile; fileRef = 416A508D1C21A8D70060E708 /* Web.m */; };
 		416A50911C21B8AF0060E708 /* Web2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416A50901C21B8AF0060E708 /* Web2ViewController.m */; };
@@ -88,6 +91,12 @@
 		410A3EA81C7333D700FC0F82 /* ALLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLViewController.m; sourceTree = "<group>"; };
 		410A3EAA1C799D8F00FC0F82 /* ALLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLCell.h; sourceTree = "<group>"; };
 		410A3EAB1C799D8F00FC0F82 /* ALLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLCell.m; sourceTree = "<group>"; };
+		410A3EAD1C7C006900FC0F82 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		410A3EAE1C7C006900FC0F82 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		410A3EB01C7C1BC500FC0F82 /* UserHPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHPViewController.h; sourceTree = "<group>"; };
+		410A3EB11C7C1BC500FC0F82 /* UserHPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHPViewController.m; sourceTree = "<group>"; };
+		410A3EB31C7C1EE700FC0F82 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		410A3EB41C7C1EE700FC0F82 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		416A50851C2145D20060E708 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		416A50861C2145D20060E708 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		416A508C1C21A8D70060E708 /* Web.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web.h; sourceTree = "<group>"; };
@@ -211,12 +220,29 @@
 		410A3E971C72D92B00FC0F82 /* V2EX ALL */ = {
 			isa = PBXGroup;
 			children = (
-				410A3EA71C7333D700FC0F82 /* ALLViewController.h */,
-				410A3EA81C7333D700FC0F82 /* ALLViewController.m */,
 				410A3EAA1C799D8F00FC0F82 /* ALLCell.h */,
 				410A3EAB1C799D8F00FC0F82 /* ALLCell.m */,
+				410A3EA71C7333D700FC0F82 /* ALLViewController.h */,
+				410A3EA81C7333D700FC0F82 /* ALLViewController.m */,
+				410A3EAD1C7C006900FC0F82 /* DetailsViewController.h */,
+				410A3EAE1C7C006900FC0F82 /* DetailsViewController.m */,
+				410A3EB01C7C1BC500FC0F82 /* UserHPViewController.h */,
+				410A3EB11C7C1BC500FC0F82 /* UserHPViewController.m */,
+				410A3EB31C7C1EE700FC0F82 /* HomePageViewController.h */,
+				410A3EB41C7C1EE700FC0F82 /* HomePageViewController.m */,
 			);
 			name = "V2EX ALL";
+			sourceTree = "<group>";
+		};
+		410A3EB61C7C371B00FC0F82 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				41F94AB21C1E88F900FA72B6 /* AppDelegate.h */,
+				41F94AB31C1E88F900FA72B6 /* AppDelegate.m */,
+				410A3E8C1C5728EF00FC0F82 /* Main.storyboard */,
+				41F94AC01C1E88F900FA72B6 /* LaunchScreen.storyboard */,
+			);
+			name = main;
 			sourceTree = "<group>";
 		};
 		41F94AA31C1E88F900FA72B6 = {
@@ -243,10 +269,7 @@
 		41F94AAE1C1E88F900FA72B6 /* UseJson */ = {
 			isa = PBXGroup;
 			children = (
-				41F94AC01C1E88F900FA72B6 /* LaunchScreen.storyboard */,
-				410A3E8C1C5728EF00FC0F82 /* Main.storyboard */,
-				41F94AB21C1E88F900FA72B6 /* AppDelegate.h */,
-				41F94AB31C1E88F900FA72B6 /* AppDelegate.m */,
+				410A3EB61C7C371B00FC0F82 /* main */,
 				410A3E971C72D92B00FC0F82 /* V2EX ALL */,
 				410A3E961C72A9D900FC0F82 /* V2EX HOT */,
 				410A3E951C72A97100FC0F82 /* User */,
@@ -446,10 +469,13 @@
 				41F94AE91C1E8A3500FA72B6 /* Cell.m in Sources */,
 				410A3E5C1C524DAE00FC0F82 /* Others.m in Sources */,
 				41F94AB71C1E88F900FA72B6 /* ViewController.m in Sources */,
+				410A3EB21C7C1BC500FC0F82 /* UserHPViewController.m in Sources */,
+				410A3EB51C7C1EE700FC0F82 /* HomePageViewController.m in Sources */,
 				41F94AB41C1E88F900FA72B6 /* AppDelegate.m in Sources */,
 				416A509B1C243A900060E708 /* AccountinformationViewController.m in Sources */,
 				41F94AB11C1E88F900FA72B6 /* main.m in Sources */,
 				416A508E1C21A8D70060E708 /* Web.m in Sources */,
+				410A3EAF1C7C006900FC0F82 /* DetailsViewController.m in Sources */,
 				41F94ABD1C1E88F900FA72B6 /* UseJson.xcdatamodeld in Sources */,
 				410A3E911C572D3500FC0F82 /* NewsViewController.m in Sources */,
 			);

@@ -22,7 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     UIWebView *webView = [[UIWebView alloc] init];
     webView.frame = CGRectMake(0, 0, 375, 667); // frame中的size指UIScrollView的可视范围
@@ -34,11 +33,6 @@
 //    self.loading.hidesWhenStopped=YES;
 //    [self.loading startAnimating];
     
-    
-    
-//    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"百度一下，你就知道.html" ofType:nil]];
-//    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-//    [webView loadRequest:request];
     
     NSURL *url = [[NSURL alloc]initWithString:website];
     

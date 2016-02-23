@@ -15,11 +15,9 @@
 @interface ViewController ()
 
 @end
+
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT,0)
 #define KLatestKivaLoansURL [NSURL URLWithString:@"https://www.v2ex.com/api/topics/hot.json"]
-
-
-
 
 @implementation ViewController
 {
@@ -116,7 +114,6 @@
     }
     
     {
-        
         // 结束刷新刷新 ，为了避免网络加载失败，一直显示刷新状态的错误
         [control endRefreshing];
     };
@@ -190,8 +187,8 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([segue.identifier isEqualToString:@"showmember"])
-    {
+//    if ([segue.identifier isEqualToString:@"showmember"])
+//    {
         NSIndexPath *indexPath = [self.tableView2 indexPathForSelectedRow];
        
         NSDictionary *acatalogue = [webjsons objectAtIndex:indexPath.row];
@@ -201,7 +198,7 @@
         destViewController.member = [acatalogue objectForKey:@"member"];
         destViewController.node = [acatalogue objectForKey:@"node"];
         destViewController.hidesBottomBarWhenPushed = YES;
-    }
+//    }
 //    else if ([segue.identifier isEqualToString:@"showweb"])
 //    {
 //        NSIndexPath *indexPath = [self.tableView2 indexPathForSelectedRow];
